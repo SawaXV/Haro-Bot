@@ -149,4 +149,4 @@ async def on_command_error(ctx, error):
 
 
 # Haro on!
-bot.run('ODc2MDgwOTE3NDU2NzY0OTI4.YRe37w.R9AJsmP2y6Ehtknjpwpy0ZQbgHY')
+bot.run(TOKEN) 
