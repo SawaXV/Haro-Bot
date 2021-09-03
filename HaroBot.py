@@ -25,7 +25,7 @@ async def on_ready():
 async def cmd(ctx):
     embed = discord.Embed(title = "Haro Command List", description = "Use h! to call Haro! Haro!\nUse \" \" if entering multiple keywords\n", colour = discord.Color.from_rgb(131, 186, 119))
     embed.add_field(name = ":tennis: Main commands :tennis:", value = "∎ **cmd** - Display Haro's commands\n", inline = False)
-    embed.add_field(name = ":tools: Utility commands :tools:", value = "∎ **amazonitem [item name]** - Find a specific item from Amazon\n∎ **amazonlist [item name]** - List a set of amazon items\n∎ **redditimg [subreddit]** - Returns a random image post from specified subreddit", inline = False)
+    embed.add_field(name = ":tools: Utility commands :tools:", value = "∎ **amazonitem [item name]** - Find a specific item from Amazon\n∎ **amazonlist [item name] [F/L/H/R]** - List a set of amazon items (Featutred, Low2High, High2Low, Rating)\n∎ **redditimg [subreddit]** - Returns a random image post from specified subreddit", inline = False)
     embed.set_image(url = "https://i.stack.imgur.com/2haP4.jpg")
     await ctx.send(embed=embed)
 
