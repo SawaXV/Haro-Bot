@@ -1,5 +1,5 @@
 # Haro-Bot
-Discord bot named after the bot Haro from Mobile Suit: Gundam
+Discord bot named after the bot Haro from Mobile Suit: Gundam. Created for my Discord server to practice Discord bot programming and to add social features, also Gunpla shopping.
 
 - h! cmd - Displays command list
 - h! amazonitem - Finds specific amazon item
